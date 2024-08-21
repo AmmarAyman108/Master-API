@@ -6,6 +6,7 @@ import 'package:master_api/core/api/dio_consumer.dart';
 import 'package:master_api/cubit/user_cubit.dart';
 import 'package:master_api/repositories/user_repository.dart';
 import 'package:master_api/screens/sign_in_screen.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   CacheHelper().init();

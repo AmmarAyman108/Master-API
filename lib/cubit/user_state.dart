@@ -1,4 +1,3 @@
-
 import 'package:master_api/models/user_model.dart';
 
 class UserState {}

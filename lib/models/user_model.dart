@@ -1,4 +1,3 @@
-
 import 'package:master_api/core/api/end_ponits.dart';
 
 class UserModel {

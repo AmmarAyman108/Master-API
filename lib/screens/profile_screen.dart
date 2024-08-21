@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:master_api/cubit/user_cubit.dart';
 import 'package:master_api/cubit/user_state.dart';
+
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
 
