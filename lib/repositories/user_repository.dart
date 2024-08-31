@@ -59,7 +59,7 @@ class UserRepository {
           ApiKey.profilePic: await uploadImageToAPI(profilePic)
         },
       );
-      final signUPModel = SignUpModel.fromJson(response.data);
+      final signUPModel = SignUpModel.fromJson(response);
       return Right(signUPModel);
     } on ServerException catch (e) {
       return Left(e.errModel.errorMessage);
